@@ -31,6 +31,11 @@ sudo snap install --classic dmd && sudo snap install --classic dub
 sudo wget http://master.dl.sourceforge.net/project/d-apt/files/d-apt.list -O /etc/apt/sources.list.d/d-apt.list
 sudo apt-get update && sudo apt-get -y --allow-unauthenticated install --reinstall d-apt-keyring
 sudo apt-get update && sudo apt-get install dmd-compiler dub
+
+# Alternative
+```sh
+wget http://downloads.dlang.org/releases/2.x/2.083.0/dmd_2.083.0-0_amd64.deb
+sudo dpkg -i dmd_2.083.0-0_amd64.deb
 ```
 
 ### Dependencies: Fedora/CentOS
